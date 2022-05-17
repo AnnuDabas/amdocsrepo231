@@ -1,0 +1,33 @@
+{
+	"designs": [{
+		"designId": "91554",
+		"createDate": "2020-01-02 23:59:59",
+		"reasonForUpdate": "Product speed Updated",
+		"devices": [{
+			"deviceType": "EMTA",
+			"isCompatible": "Y",
+			"capabilities": {
+				"noOfVoicePort": 4,
+				"noOfDataPort": 2
+			},
+			"physicalCharacteristics": [{
+					"name": "macAddress",
+					"value": "14:A3:B7:AC:14:AB"
+				},
+				{
+					"name": "make",
+					"value": "Arris"
+				},
+				{
+					"name": "model",
+					"value": "ArrisModel"
+				}
+			],
+			"services": [{
+				"serviceType": "BV",
+				"serviceId": "BV13558451",
+				"deviceAcquisitionType": "Rental"
+			}]
+		}]
+	}]
+}

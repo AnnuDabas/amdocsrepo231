@@ -1,0 +1,29 @@
+{
+	"designs": [{
+		"designId": "90159",
+		"createDate": "2020-01-02 23:59:59",
+		"reasonForUpdate": "Product speed Updated",
+		"devices": [{
+			"deviceType": "BWG",
+			"isCompatible": "Y",
+			"physicalCharacteristics": [{
+					"name": "macAddress",
+					"value": "14:A1:B8:AC:12:AC"
+				},
+				{
+					"name": "make",
+					"value": "Arris"
+				},
+				{
+					"name": "model",
+					"value": "ArrisModel"
+				}
+			],
+			"services": [{
+				"serviceType": "BI",
+				"serviceId": "BI13558217",
+				"deviceAcquisitionType": "Rental"
+			}]
+		}]
+	}]
+}

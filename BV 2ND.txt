@@ -1,0 +1,140 @@
+{
+    "services": [
+        {
+            "serviceType": "Business Voice",
+            "id": "BV13559025",
+            "status": "Pending Activation",
+            "associatedResourceIDs": [
+                "DOCSIS_CPE_OSite_1375436692_1_16290401",
+                "8479715990",
+                "8479715988",
+                "8479715989"
+            ],
+            "characteristics": [
+                {
+                    "name": "broadsoftGrpId",
+                    "value": "2242251001"
+                }
+            ]
+        }
+    ],
+    "resources": [
+        {
+            "resourceType": "Device",
+            "id": "DOCSIS_CPE_OSite_1375436692_1_16290401",
+            "status": "Planned",
+            "associatedServiceIDs": [
+                "BV13559025"
+            ],
+            "deviceType": "EMTA",
+            "serialNumber": "BV1012",
+            "make": "Arris",
+            "model": "TM504G",
+            "armObjName": "DOCSIS_CPE_OSite_1375436692_1_16290401",
+            "mtamacaddress": "19:1a:84:1b:e1:8b",
+            "attributes": [
+                {
+                    "name": "mtamacaddress",
+                    "value": "19:1a:84:1b:e1:8b"
+                },
+                {
+                    "name": "cmmacaddress",
+                    "value": "19:4f:e1:21:d9:c0"
+                }
+            ]
+        },
+        {
+            "resourceType": "TN",
+            "id": "8479715990",
+            "status": "Planned",
+            "associatedServiceIDs": [
+                "BV13559025"
+            ],
+            "mtamacaddress": "19:1A:84:1B:E1:8B",
+            "attributes": [
+                {
+                    "name": "portNo",
+                    "value": "1"
+                },
+                {
+                    "name": "mtamacaddress",
+                    "value": "19:1A:84:1B:E1:8B"
+                },
+                {
+                    "name": "tnNo",
+                    "value": "8479715990"
+                },
+                {
+                    "name": "tnType",
+                    "value": "NATIVE"
+                },
+                {
+                    "name": "primary",
+                    "value": "false"
+                }
+            ]
+        },
+        {
+            "resourceType": "TN",
+            "id": "8479715988",
+            "status": "Planned",
+            "associatedServiceIDs": [
+                "BV13559025"
+            ],
+            "mtamacaddress": "19:1A:84:1B:E1:8B",
+            "attributes": [
+                {
+                    "name": "portNo",
+                    "value": "2"
+                },
+                {
+                    "name": "mtamacaddress",
+                    "value": "19:1A:84:1B:E1:8B"
+                },
+                {
+                    "name": "tnNo",
+                    "value": "8479715988"
+                },
+                {
+                    "name": "tnType",
+                    "value": "NATIVE"
+                },
+                {
+                    "name": "primary",
+                    "value": "false"
+                }
+            ]
+        },
+        {
+            "resourceType": "TN",
+            "id": "8479715989",
+            "status": "Planned",
+            "associatedServiceIDs": [
+                "BV13559025"
+            ],
+            "mtamacaddress": "19:1A:84:1B:E1:8B",
+            "attributes": [
+                {
+                    "name": "portNo",
+                    "value": "3"
+                },
+                {
+                    "name": "mtamacaddress",
+                    "value": "19:1A:84:1B:E1:8B"
+                },
+                {
+                    "name": "tnNo",
+                    "value": "8479715989"
+                },
+                {
+                    "name": "tnType",
+                    "value": "NATIVE"
+                },
+                {
+                    "name": "primary",
+                    "value": "false"
+                }
+            ]
+        }
+    ]
+}
